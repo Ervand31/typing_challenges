@@ -1,7 +1,8 @@
 from constants import ___
+from typing import Tuple
 
 
-def is_point_in_square(point: ___, left_upper_corner: ___, right_bottom_corner: ___) -> ___:
+def is_point_in_square(point: Tuple[int, int], left_upper_corner: Tuple[int, int], right_bottom_corner: Tuple[int, int]) -> bool:
     pass
 
 

@@ -1,7 +1,8 @@
 from constants import ___
+from typing import Set
 
 
-def ban_users(users_ids: ___) -> ___:
+def ban_users(users_ids: Set[int]) -> int:
     pass
 
 
