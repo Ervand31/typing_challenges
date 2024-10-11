@@ -1,8 +1,7 @@
 from constants import ___
-from typing import Any
 
 
-def stringify(value: Any) -> str:
+def stringify(value: str | int | float | None) -> str | None:
     pass
 
 

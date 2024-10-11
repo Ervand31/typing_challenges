@@ -1,7 +1,7 @@
 from constants import ___
 
 
-def is_correct_email(raw_email: str) -> bool:
+def is_correct_email(raw_email: str) -> bool | None:
     pass
 
 

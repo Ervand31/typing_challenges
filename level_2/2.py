@@ -1,8 +1,7 @@
 from constants import ___
-from typing import List
 
 
-def is_recovery_code_correct(code: str, user_codes: List[str]) -> bool:
+def is_recovery_code_correct(code: str, user_codes: list[str]) -> bool | None:
     pass
 
 

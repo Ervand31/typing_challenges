@@ -1,10 +1,9 @@
 import decimal
-from typing import Dict, Optional
 
 from constants import ___
 
 
-def get_transaction_amount(transaction_id: int, transactions_amounts_map: Dict[int: decimal.Decimal]) -> Optional[str]:
+def get_transaction_amount(transaction_id: int, transactions_amounts_map: dict[int, decimal.Decimal]) -> decimal.Decimal | None:
     pass
 
 

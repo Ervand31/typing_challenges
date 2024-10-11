@@ -1,8 +1,7 @@
 from constants import ___
-from typing import Optional
 
 
-def is_correct_int(raw_int: Optional[str]) -> bool:
+def is_correct_int(raw_int: str | None) -> bool | None:
     pass
 
 

@@ -2,7 +2,7 @@ from constants import ___
 from typing import Tuple
 
 
-def is_point_in_square(point: Tuple[int, int], left_upper_corner: Tuple[int, int], right_bottom_corner: Tuple[int, int]) -> bool:
+def is_point_in_square(point: Tuple[int, int], left_upper_corner: Tuple[int, int], right_bottom_corner: Tuple[int, int]) -> bool | None:
     pass
 
 
